@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RendomApp</string>
+    <string name="onboarding_note_title">Not sure what’s causing your breakouts?</string>
+    <string name="onboarding_note_title_two">Track what’s unique to you with Notes</string>
+    <string name="onboarding_note_text_one">Helping you understand what may be helping your acne and what may be contributing to your breakouts.</string>
+    <string name="onboarding_note_text_two">Our experts helped us put together this list of the most common influences on skin health.</string>
+    <string name="onboarding_note_text_three">You can also create custom notes to keep track of anything of interest in your routine.</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:orientation="vertical"
+    tools:context=".LineChartActivity">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="all"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/chin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="chin"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/cheek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="cheek"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/nose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="nose"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/forhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="forhead"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <!--<org.eazegraph.lib.charts.ValueLineChart-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:id="@+id/cubiclinechart"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--app:egUseCubic="true"-->
+    <!--app:egUseOverlapFill="true"-->
+    <!--app:egCurveSmoothness="0.4"-->
+    <!--app:egLegendHeight="40dp" />-->
+    <!--app:egShowStandardValue="true"-->
+    <!--app:egIndicatorLineColor="#FE6DA8"-->
+
+</LinearLayout>
